@@ -1,0 +1,82 @@
+{
+  "intents": [
+    {
+      "tag": "saudacao",
+      "patterns": [
+        "Ola",
+        "Opa",
+        "Oi",
+        "tudo bem"
+      ],
+      "responses": [
+        "Oi",
+        "Olá"
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": [
+        "valeu",
+        "tchau",
+        "Obrigado",
+        "tks"
+      ],
+      "responses": [
+        "Até breve",
+        "Falou"
+      ]
+    },
+    {
+      "tag": "data_prova",
+      "patterns": [
+        "Quando sera a prova?",
+        "A prova será em que dia?"
+      ],
+      "responses": [
+        "no dia 26"
+      ]
+    },
+    {
+      "tag": "PIPE",
+      "patterns": [
+        "Quais são os objetivos do PIPE",
+        "Quais são os objetivos do pipe",
+        "Quais são os objetivos do PIPE?",
+        "Quais são os objetivos do pipe?",
+        "Para que serve o PIPE?",
+        "Para que serve o PIPE?",
+        "Para que serve o pipe?"
+      ],
+      "responses": ["1. Apoiar a pesquisa em ciência e tecnologia como instrumento para promover a inovação tecnológica, promover o desenvolvimento empresarial e aumentar a competitividade das pequenas empresas.\n 2. Incrementar a contribuição da pesquisa para o desenvolvimento econômico e social.\n 3. Induzir o aumento do investimento privado em pesquisa tecnológica.\n 4. Possibilitar que as empresas se associem a pesquisadores do ambiente acadêmico em projetos de pesquisa visando à inovação tecnológica.\n 5. Contribuir para a formação e o desenvolvimento de núcleos de desenvolvimento tecnológico nas empresas e para o emprego de pesquisadores no mercado."]    
+    },
+    {
+      "tag": "Descricao_PIPE",
+      "patterns": [
+        "O que é o programa PIPE?","O que é o programa PIPE"],
+      "responses": [
+        "O Programa Pesquisa Inovativa em Pequenas Empresas da FAPESP tem como objetivo apoiar a pesquisa científica e tecnológica em pequenas empresas no Estado de São Paulo. Seu propósito é promover a inovação tecnológica e o desenvolvimento empresarial, aumentar a competitividade das pequenas empresas, facilitar a colaboração entre empresas e pesquisadores acadêmicos, formar e fortalecer núcleos de desenvolvimento tecnológico nas empresas e estimular a contratação de pesquisadores pelo setor empresarial, visando estabelecer uma cultura contínua de inovação."
+      ]
+
+    },
+    {
+      "tag": "Solicitar_PIPE",
+      "patterns": [
+        "Preciso já ter a empresa para solicitar o PIPE?"],
+      "responses": [
+        "O Programa Pesquisa Inovativa em Pequenas Empresas da FAPESP tem como objetivo apoiar a pesquisa científica e tecnológica em pequenas empresas no Estado de São Paulo. Seu propósito é promover a inovação tecnológica e o desenvolvimento empresarial, aumentar a competitividade das pequenas empresas, facilitar a colaboração entre empresas e pesquisadores acadêmicos, formar e fortalecer núcleos de desenvolvimento tecnológico nas empresas e estimular a contratação de pesquisadores pelo setor empresarial, visando estabelecer uma cultura contínua de inovação.Não. A FAPESP analisa propostas de empresas ainda não constituídas. Empresas startup ainda não constituídas legalmente são incentivadas a submeter. Nos casos em que a proposta for recomendada, o proponente deverá então abrir formalmente a empresa antes da concessão da proposta."
+      ]
+
+    },
+
+    {
+      "tag": "Solicitacao_areas_PIPE",
+      "patterns": [
+        "Possuo formação em uma área, posso submeter um projeto em outra área?"],
+      "responses": [
+        "No PIPE, é crucial demonstrar experiência na área do projeto e formar uma equipe multidisciplinar com profissionais de todas as áreas relevantes para a pesquisa. Nem todos os membros da equipe precisam ter vínculo direto com a empresa; especialistas de universidades e consultores podem ser incluídos para complementar as especialidades necessárias. Por exemplo, projetos específicos exigem a presença de especialistas nas áreas relacionadas, como desenvolvimento de software e saúde, ou eletrônica e agricultura, garantindo assim a expertise necessária para conduzir a pesquisa com sucesso."
+      ]
+
+    }
+    
+  ]
+}
