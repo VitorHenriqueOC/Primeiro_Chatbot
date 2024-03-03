@@ -1,3 +1,11 @@
+"""
+Nome dos integrantes:
+
+Vitor Henrique de Oliveira Costa RA: 22.121.078-4
+Gabriel Matozo de Almeida RA: 22.121.116-2
+"""
+
+
 from chatbot import ChatBot
 myChatBot = ChatBot()
 #apenas carregar um modelo pronto
